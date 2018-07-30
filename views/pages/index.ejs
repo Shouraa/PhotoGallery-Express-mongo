@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ../partials/head %>
+</head>
+
+<body class="">
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main>
+        <div class="body">
+
+
+
+            <div class="bodyContainer">
+                <% studentInfo.forEach((student, index) =>{ %>
+                    <span>
+                        <a href="/detail/<%= student._id %>">
+                            <div class="studentCard">
+                                <%= student.firstName %>
+                                    <%= student.lastName %>
+                                        <img class="mainImg" src="/images/<%= student.src%>" />
+                            </div>
+                        </a>
+
+                        <a href="/delete/<%= student._id %>">delete</a>
+
+
+                    </span>
+
+                    <% }); %>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+body {
+  font-family: "Cantarell";
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+}
+.headerContainer {
+  background-color: blue;
+}
+
+.title {
+  color: aliceblue;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  text-decoration: none;
+  background-color: cyan;
+}
+
+.body {
+  background-color: lightblue;
+}
+
+.bodyContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.studentCard {
+  width: 400px;
+  height: 400px;
+  border: 2px solid orange;
+}
+
+.mainImg {
+  width: 300px;
+  height: 400px;
+}

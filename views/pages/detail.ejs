@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ../partials/head %>
+</head>
+
+<body class="">
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main>
+        <div class="">
+            <div class="">
+                <div class="">
+                    <h1>
+                        <%= student.firstName %>
+                            <%= student.lastName %>
+                    </h1>
+                    <p>full Info Comes Here</p>
+                    <div>
+                        Title:
+                        <%= student.title %>
+                    </div>
+                    <div>
+                        Nationality:
+                        <%= student.nationality %>
+                    </div>
+                    <div>
+                        Skills:
+                        <%= student.skills %>
+                    </div>
+                    <div>
+                        Why SoftWare Developer:
+                        <%= student.whySofterDeveloper %>
+                    </div>
+                    <div>
+                        Long-term Vision:
+                        <%= student.longTermVision %>
+                    </div>
+                    <div>
+                        What Motivates me:
+                        <%= student.motivatesMe %>
+                    </div>
+                </div>
+            </div>
+
+            <div class="">
+                <div class="">
+                    <h3>Pic comes here</h3>
+                    <img src="/images/<%= student.src %>" />
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+
+</body>
+
+</html>
