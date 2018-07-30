@@ -5,9 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "engine": "8.10.0"
+    "start": "node server.js"
   },
+  "engines": {"8.10.0"},
   "author": "Shora",
   "license": "ISC",
   "dependencies": {
